@@ -56,3 +56,19 @@ Lists :
     <dd> description 2 of element 3 </dd>
     <dd> description 3 of element 3 </dd>
 </dl> 
+
+
+- Tables : (10 tags)
+
+    * the main tag :<table></table>
+    * the caption tag: <caption> </caption> => it's used for accessbility ...etc
+    * the head tag : <thead> </thead>
+    * the body tag : <tbody> </tbody>
+    * the head element : <th> </th>
+    * the row element : <tr> </tr>
+    * the footer tag : <tfoot> </tfoot>
+    * the data : <td> </td>
+    * the colgroup : <colgroup> </colgroup>
+    * 
+
+

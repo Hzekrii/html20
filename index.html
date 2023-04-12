@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" sizes="32x32">
-    <link rel="import" href="component.html">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <p>Hello</p>
@@ -42,6 +42,40 @@
         <dd> description 3 of element 3 </dd>
     </dl> 
     
+    <table class="border table">
+        <caption> c'est une table des personnels</caption>
+        <colgroup>
+            <col class="red" span="2">
+            <col class="green">
+        </colgroup>
+        <thead >
+            <tr>
+                <th>ID</th>
+                <th>Nom</th>
+                <th>Prénom</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Zekri</td>
+                <td>Hamza</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Elidrissi</td>
+                <td>Houcine</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Radfi</td>
+                <td>Abdellah</td>
+            </tr>
+        </tbody>
+        <!-- <tfoot></tfoot> -->
+    
+    
+    </table>
 
 
 </body>

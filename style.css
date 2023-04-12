@@ -1,0 +1,18 @@
+.green{
+    background-color: rgba(21, 78, 49, 0.801);
+}
+.red{
+    background-color: rgba(139, 13, 13, 0.836);
+}
+
+.border{
+    border:2px solid black;
+}
+.table{
+    width: 50%; 
+    color: white;
+    background-color: rgb(54, 52, 52);
+}
+html,body{
+    scroll-behavior: smooth;
+}
